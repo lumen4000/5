@@ -1,0 +1,64 @@
+@font-face {
+	font-family: 'Muller';
+	src: url('../fonts/MullerBold.woff2') format('woff2'),
+		url('../fonts/MullerBold.woff') format('woff');
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Muller';
+	src: url('../fonts/MullerLight.woff2') format('woff2'),
+		url('../fonts/MullerLight.woff') format('woff');
+	font-display: swap;
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Muller';
+	src: url('../fonts/MullerMedium.woff2') format('woff2'),
+		url('../fonts/MullerMedium.woff') format('woff');
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Muller';
+	src: url('../fonts/MullerRegular.woff2') format('woff2'),
+		url('../fonts/MullerRegular.woff') format('woff');
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.header { 
+   display:flex;
+   justify-content: space-between;
+}
+
+.phone { 
+    fill:#666666 ;
+    font-family: "Muller";
+    
+
+
+}
+
+.cabinet {
+    color:#CC9933;
+    font-family: 'Muller', sans-serif;
+    display: flex;
+    justify-content:flex-end;
+
+}
