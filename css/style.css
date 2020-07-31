@@ -35,11 +35,17 @@
 }
 
 
+.body{
+background-color: #F1F1F1;
+}
+
+
 .container {
     max-width: 1170px;
     margin: 0 auto;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	background-color: #F1F1F1;
 }
 
 .header { 
@@ -47,18 +53,52 @@
    justify-content: space-between;
 }
 
-.phone { 
-    fill:#666666 ;
+.flex_header { 
+    color:#666666 ;
     font-family: "Muller";
-    
-
-
+	display: flex;
 }
 
 .cabinet {
     color:#CC9933;
     font-family: 'Muller', sans-serif;
-    display: flex;
-    justify-content:flex-end;
 
 }
+
+.phone {
+	margin-left: 25px;
+	margin-top: 17px;
+	font-family: 'Muller';
+	font-weight: 700;
+}
+
+.about {
+	display:flex;
+	justify-content: space-between;
+	margin-top: 50px;
+	border: 1px double white;
+	border-radius:  20px; ;
+	background-color: white;
+}
+
+.list {
+	list-style-type: none;
+	display:flex;
+	justify-content: space-between;
+	
+}
+
+.img_search {
+	padding-right: 20px;
+	border: 1px double white;
+	border-radius:  50px;
+	font-family: "Muller";
+	background-color: #F1F1F1;
+	
+}
+
+.text_placeh::placeholder{
+	background-color:#BEBEBE;
+	font-size: 14px;
+}
+
