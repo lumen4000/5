@@ -94,11 +94,27 @@ background-color: #F1F1F1;
 	border-radius:  50px;
 	font-family: "Muller";
 	background-color: #F1F1F1;
+	display:flex;
+	justify-content: space-around;
 	
 }
 
 .text_placeh::placeholder{
-	background-color:#BEBEBE;
-	font-size: 14px;
+	background-color: #F1F1F1;
+	
 }
 
+.text_placeh {
+	border:none;
+	outline: none;
+	padding:0;
+	display: block;
+	
+
+}
+
+.search_possition {
+	padding-bottom:5px;
+	padding-top:10px
+	
+}
