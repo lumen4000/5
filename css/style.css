@@ -102,7 +102,7 @@ background-color: #F1F1F1;
 	
 }
 
-.text_placeh::placeholder{
+.text_placeh::placeholder {
 	background-color: #F1F1F1;
 	
 }
@@ -117,8 +117,6 @@ background-color: #F1F1F1;
 	font-family: "Muller";
 	font-weight: 400;
 
-	
-
 }	
 
 
@@ -127,7 +125,7 @@ background-color: #F1F1F1;
 
 }
 
-.text_placeh:valid{
+.text_placeh:valid {
 	background-color: #F1F1F1;
 
 }
@@ -137,4 +135,31 @@ background-color: #F1F1F1;
 	font-family: "Muller";
 	font-weight: 400;
 	font-size: 14px;
+}
+
+.flex-section-2 {
+	display:flex;
+	flex-wrap: nowrap;
+}
+
+.quick_booking {
+display: flex;
+flex-flow: column;
+}
+
+.quick_placeh {
+
+}
+
+.special_offers {
+	
+}
+
+.numbers_lux {
+	background-image: url(/img/Номера.png) no-repeat 100%;
+	back
+}
+
+.a_more {
+
 }
