@@ -140,6 +140,7 @@ background-color: #F1F1F1;
 .flex-section-2 {
 	display:flex;
 	flex-wrap: nowrap;
+	margin-top: 50px;
 }
 
 .quick_booking {
@@ -148,18 +149,89 @@ flex-flow: column;
 }
 
 .quick_placeh {
-
-}
-
-.special_offers {
+	border: 2px double  #F1F1F1;
+	border-radius:  20px;
+	font-family: "Muller";
+	background-color:white;
+	line-height:71px;
+	margin-bottom: 20px;
 	
 }
 
+.first_rent {
+	width: 519px;
+	height: 427px;
+	display: flex;
+	flex-flow: column;
+}
+
+.special_offers {
+	padding-left: 55px;
+
+}
+
 .numbers_lux {
-	background-image: url(/img/Номера.png) no-repeat 100%;
-	back
+	background: url(/img/Номера.png) no-repeat ;
+	background-size: contain;
+	width: 595px;
+	height: 540px;
+}
+
+.text-color-h3 { 
+	color: #FFFFFF;
+	font-family: "Muller";
+	font-size: 55px;
+	display: table-caption;
+	font-weight: 500;
+	padding-top: 180px;
+	padding-left: 40px;
+
+
 }
 
 .a_more {
+	text-decoration: none;
+	color:#FFCC66 ;
+	font-family: "Muller";
+	font-weight: 400;
+	padding-left: 20px;
 
+
+}
+
+.text-span-srecial {
+	color: #FFFFFF;
+	font-family: "Muller";
+	font-weight: 400;
+	font-size: 35px;
+	opacity: .49019607843137253;
+	padding-left: 40px;
+}
+
+.for-text-h2 {
+	color: #333333;
+	font-family: "Muller";
+	font-weight: 400;
+	font-size: 25px;
+}
+
+.h2-spec {
+	padding-left: 30px;
+	margin-bottom: 15px;
+}
+
+.about_us {
+	margin-top: 70px;
+	margin-left: 40px;
+	width: 880px;
+
+}
+
+.p-about_us {
+	color: #666666;
+	font-family: "Muller";
+	font-weight: 400;
+	font-size: 15px;
+	padding-left: 30px;
+	line-height: 25px;
 }
