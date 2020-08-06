@@ -104,6 +104,10 @@ background-color: #F1F1F1;
 
 .text_placeh::placeholder {
 	background-color: #F1F1F1;
+	color: #BEBEBE;
+	font-family: "Muller";
+	font-weight: 400;
+
 	
 }
 
@@ -158,6 +162,13 @@ flex-flow: column;
 	
 }
 
+.quick_placeh::placeholder {
+	color: #999999;
+	padding-left: 15px;
+	font-family: "Muller";
+	font-weight: 400;
+}
+
 .first_rent {
 	width: 519px;
 	height: 427px;
@@ -194,7 +205,7 @@ flex-flow: column;
 	color:#FFCC66 ;
 	font-family: "Muller";
 	font-weight: 400;
-	padding-left: 20px;
+	padding-left: 50px;
 
 
 }
@@ -212,7 +223,11 @@ flex-flow: column;
 	color: #333333;
 	font-family: "Muller";
 	font-weight: 400;
-	font-size: 25px;
+	font-size: 40px;
+}
+
+.arrow {
+	margin-left: 5px;
 }
 
 .h2-spec {
@@ -234,4 +249,45 @@ flex-flow: column;
 	font-size: 15px;
 	padding-left: 30px;
 	line-height: 25px;
+}
+
+.yellow {
+	color: #CC9933;
+	font-family: "Muller";
+	font-weight: 500;
+}
+
+.p2 {
+	font-family: "Muller";
+	font-weight: 400;
+	color: #999999;
+	padding-left: 30px;
+}
+
+.btn {
+	width: 1000px;
+	height: 1000px;
+	background-color: #CC9933;
+	color: #FFFFFF;
+	font-family: "Muller";
+	font-weight: 500;	
+}
+
+.find_number {
+	display: flex;
+	
+
+	
+}
+
+.block_services {
+	width: 573px;
+	height: 326px;
+	background-color: #FFFFFF;
+	
+}
+
+.flex_services {
+	display: flex;
+	flex-flow: column wrap-reverse;
 }
