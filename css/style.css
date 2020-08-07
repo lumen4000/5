@@ -261,16 +261,20 @@ flex-flow: column;
 	font-family: "Muller";
 	font-weight: 400;
 	color: #999999;
-	padding-left: 30px;
+	padding-left: 25px;
+	padding-top: 10px;
 }
 
 .btn {
-	width: 1000px;
-	height: 1000px;
+	width: 140px;
+	height: 70px;
 	background-color: #CC9933;
 	color: #FFFFFF;
 	font-family: "Muller";
-	font-weight: 500;	
+	font-weight: 500;
+	border: 2px double  #F1F1F1;
+	border-radius:  20px;
+		
 }
 
 .find_number {
@@ -284,10 +288,50 @@ flex-flow: column;
 	width: 573px;
 	height: 326px;
 	background-color: #FFFFFF;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	
 	
 }
 
 .flex_services {
 	display: flex;
-	flex-flow: column wrap-reverse;
+	flex-flow:wrap-reverse;
+}
+
+.h2-services {
+	padding-left: 67px;
+	margin-bottom: 15px;
+}
+.a_services {
+	font-size:22px ;
+	text-decoration: none;
+	color:#FFCC66 ;
+	font-family: "Muller";
+	font-weight: 400;
+	padding-left: 30px;
+}
+
+.p_services {
+	color: #666666;
+	font-family: "Muller";
+	font-weight: 400;
+	font-size: 16px;
+	padding-left: 30px;
+	line-height: 25px;
+	padding-right: 120px;
+}
+.services_img {
+	margin-bottom: 20px;
+}
+
+.flex_advantage {
+	display: flex;
+	flex-flow:wrap;
+}
+
+.advantage {
+	width: 250px;
+	height: 250px;
+	background-color: #FFFFFF;
 }
