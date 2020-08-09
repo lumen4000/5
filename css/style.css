@@ -328,10 +328,58 @@ flex-flow: column;
 .flex_advantage {
 	display: flex;
 	flex-flow:wrap;
+	
 }
 
 .advantage {
-	width: 250px;
-	height: 250px;
+	width: 265px;
+	height: 265px;
 	background-color: #FFFFFF;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	display: flex;
+	align-items:flex-start;
+	flex-direction:column;
+	border: 2px double  #F1F1F1;
+	border-radius:  20px;
+	box-sizing: border-box;
+	padding-left: 45px;
+	padding-right: 45px;
+	line-height: 25px;
+	padding-top: 40px;
+	font-family: "Muller";
+	font-weight: 400;
+	color: #333333;
+	font-size: 14px;
+
+}
+
+
+.flex_placement {
+	display: flex;
+	align-items:flex-start;
+	flex-wrap: wrap;
+}
+
+.placement {
+	width: 360px;
+	height: 430px;
+	border: 2px double  #F1F1F1;
+	border-radius:  20px;
+	margin-bottom: 25px;
+	margin-right: 25px;
+	background-color: #FFFFFF;
+}
+
+
+
+.btn_numbers {
+	width: 70px;
+	height: 40px;
+	background-color: #FFFFFF; 
+	color : #CC9933; 
+	font-family: "Muller";
+	font-weight: 500;
+	border: 2px double  #CC9933;
+	border-radius:  20px;
 }
