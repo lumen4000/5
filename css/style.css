@@ -456,3 +456,186 @@ flex-flow: column;
 	border: 2px double  #F1F1F1;
 	border-radius:  20px;
 }
+
+.flex_contacts_in {
+	white-space: pre-line;
+	display:flex ;
+	justify-content: flex-start;
+	margin-left: 44px;
+	margin-right: 44px;
+	line-height: 25px;
+	
+
+
+}
+
+.btn_route {
+	width: 215px;
+	height: 71px;
+	background-color: #FFFFFF; 
+	color : #CC9933; 
+	font-family: "Muller";
+	font-weight: 700;
+	border: 2px double  #CC9933;
+	border-radius:  20px;
+	margin-left: 44px;
+	margin-top: 42px;
+}
+
+.p_contacts {
+	color: #666666;
+	font-size: 22px;
+	font-family: "Muller";
+	font-weight: 700;
+	width: 140px;
+}
+
+.p_contacts_2 {
+	color: #333333;
+	font-family: "Muller";
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.p_yellow {
+	color: #CC9933;
+	font-size: 16px;
+	font-family: "Muller";
+	font-weight: 400;
+
+}
+
+.p_contacts_3 {
+	font-size: 16px;
+	font-family: "Muller";
+	font-weight: 400;
+	color: #969696;
+
+}
+
+.hr_contacts {
+	width: 385px;
+	color: #CCCCCC;
+	
+}
+
+.top {
+	margin-top: 30px;
+}
+
+.flex_contacts_writeus {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.write_us {
+	display: flex;
+	flex-flow: column;
+	margin-left: 177px ;
+	margin-top: 125px;
+}
+
+.writeus_placeh {
+	border: 2px double  #F1F1F1;
+	border-radius:  20px;
+	font-family: "Muller";
+	background-color:white;
+	width: 341px;
+	height: 71px;
+	margin-bottom: 20px;
+}
+
+.writeus_placeh::placeholder {
+	color: #999999;
+	padding-left: 15px;
+	font-family: "Muller";
+	font-weight: 400;
+}
+
+.writeus_placeh_big::placeholder {
+	color: #999999;
+	padding-left: 15px;
+	font-family: "Muller";
+	font-weight: 400;
+	padding-top: 15px;
+}
+
+
+.writeus_placeh_big {
+	border: 2px double  #F1F1F1;
+	border-radius:  20px;
+	font-family: "Muller";
+	background-color:white;
+	width: 341px;
+	height: 111px;
+	margin-bottom: 20px;	
+}
+
+.btn_send {
+	width: 341px;
+	height: 71px;
+	background-color: #CC9933;
+	color: #FFFFFF;
+	font-family: "Muller";
+	font-weight: 500;
+	border: 2px double  #F1F1F1;
+	border-radius:  20px;
+		
+}
+
+.h2-write_us {
+	margin-bottom: 30px;
+	font-size: 40px;
+	padding-left: 30px;
+}
+
+
+.footer {
+	background-color: #333333;
+	width: 1169px;
+	height: 339px;
+	margin-top: 21px;
+	border: 2px double  #333333;
+	border-radius:  20px;
+	background-image: url(/img/footer/funny_sun.png);
+	background-repeat: no-repeat;
+	background-size: 250px;
+	background-position: bottom 0px right 176px;
+	display: flex;
+
+}
+
+
+.p-footer-1 {
+	white-space: pre-line;
+	color: #FFFFFF;
+	line-height:30px;
+	margin-left: 53px;
+	margin-bottom: 50px;
+	font-family: "Muller";
+	font-weight: 500;
+
+}
+
+.p-footer-2 {
+	white-space: pre-line;
+	color: #FFFFFF;
+	line-height:30px;
+	margin-left: 120px;
+	margin-bottom: 50px;
+	font-family: "Muller";
+	font-weight: 500;
+
+}
+
+.footer-soc {
+	display: flex;
+	align-items: baseline;
+	flex-flow: column;
+	margin-left: 280px;
+	margin-top: 50px;	
+}
+
+.soc-possition {
+	margin-top: 21px;
+}
