@@ -182,7 +182,7 @@ flex-flow: column;
 }
 
 .numbers_lux {
-	background: url(/img/Номера.png) no-repeat ;
+	background: url(../img/Номера.png) no-repeat ;
 	background-size: contain;
 	width: 595px;
 	height: 540px;
@@ -285,12 +285,13 @@ flex-flow: column;
 }
 
 .block_services {
-	width: 573px;
+	width: 570px;
 	height: 326px;
 	background-color: #FFFFFF;
 	margin-bottom: 10px;
 	margin-right: 10px;
-	
+	border: 2px double  #FFFFFF;
+	border-radius:  20px;
 	
 }
 
@@ -390,7 +391,7 @@ flex-flow: column;
 }
 
 .back_place {
-	background-image: url(/img/Все\ варианты.png);
+	background-image: url(../img/Все\ варианты.png);
 	display: flex;
 	align-items:flex-end;
 	width: 360px;
@@ -597,7 +598,7 @@ flex-flow: column;
 	margin-top: 21px;
 	border: 2px double  #333333;
 	border-radius:  20px;
-	background-image: url(/img/footer/funny_sun.png);
+	background-image: url(../img/footer/funny_sun.png);
 	background-repeat: no-repeat;
 	background-size: 250px;
 	background-position: bottom 0px right 176px;
