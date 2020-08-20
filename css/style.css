@@ -61,7 +61,8 @@ background-color: #F1F1F1;
 
 .cabinet {
     color:#CC9933;
-    font-family: 'Muller', sans-serif;
+	font-family: 'Muller', sans-serif;
+	font-size: 18px;
 
 }
 
@@ -70,28 +71,30 @@ background-color: #F1F1F1;
 	margin-top: 17px;
 	font-family: 'Muller';
 	font-weight: 700;
+	font-size: 22px;
 }
 
 .about {
 	display:flex;
 	justify-content: space-between;
-	margin-top: 50px;
+	margin-top: 30px;
 	border: 1px double white;
 	border-radius:  10px; ;
 	background-color: white;
+	height: 66px;
 }
 
 .list {
 	list-style-type: none;
 	display:flex;
 	justify-content: space-between;
+	padding-inline-start: 18px;
 	
 }
 
 .img_search {
-	padding-right: 20px;
 	border: 2px double white;
-	border-radius:  50px;
+	border-radius:  19px;
 	font-family: "Muller";
 	background-color: #F1F1F1;
 	display:flex;
@@ -99,7 +102,12 @@ background-color: #F1F1F1;
 	margin-right: 20px;
 	margin-bottom: 6px;
 	margin-top: 6px;
+	width: 355px;
 	
+}
+
+.search_possition {
+	padding-left: 162px;
 }
 
 .text_placeh::placeholder {
@@ -135,10 +143,12 @@ background-color: #F1F1F1;
 }
 
 .li_about {
-	padding-right: 80px;
+	padding-right: 43px;
 	font-family: "Muller";
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 17px;
+	margin-top: 9px;
+
 }
 
 .flex-section-2 {
@@ -157,8 +167,10 @@ flex-flow: column;
 	border-radius:  20px;
 	font-family: "Muller";
 	background-color:white;
-	line-height:71px;
-	margin-bottom: 20px;
+	line-height:72px;
+	margin-bottom: 16px;
+	font-weight: 400;
+	font-size: 16px;
 	
 }
 
@@ -182,7 +194,7 @@ flex-flow: column;
 }
 
 .numbers_lux {
-	background: url(../img/Номера.png) no-repeat ;
+	background: url(../img/Numbers.png) no-repeat ;
 	background-size: contain;
 	width: 595px;
 	height: 540px;
@@ -191,11 +203,14 @@ flex-flow: column;
 .text-color-h3 { 
 	color: #FFFFFF;
 	font-family: "Muller";
-	font-size: 55px;
+	font-size: 66px;
 	display: table-caption;
 	font-weight: 500;
-	padding-top: 180px;
+	padding-top: 196px;
 	padding-left: 40px;
+	line-height: 60px;
+	margin-bottom: 28px;
+
 
 
 }
@@ -205,7 +220,8 @@ flex-flow: column;
 	color:#FFCC66 ;
 	font-family: "Muller";
 	font-weight: 400;
-	padding-left: 50px;
+	padding-left: 37px;
+	font-size: 16px;
 
 
 }
@@ -231,8 +247,15 @@ flex-flow: column;
 }
 
 .h2-spec {
-	padding-left: 30px;
-	margin-bottom: 15px;
+	padding-left: 42px;
+	margin-bottom: 22px;
+	margin-top: 21px;
+}
+
+.h2-about_us {
+	
+	margin-bottom: 6px;
+	margin-top: 21px;
 }
 
 .about_us {
@@ -246,9 +269,11 @@ flex-flow: column;
 	color: #666666;
 	font-family: "Muller";
 	font-weight: 400;
-	font-size: 15px;
-	padding-left: 30px;
-	line-height: 25px;
+	font-size: 16px;
+	line-height: 32px;
+	padding-left: 4px;
+	margin-top:10px;
+	width: 890px;
 }
 
 .yellow {
@@ -266,14 +291,15 @@ flex-flow: column;
 }
 
 .btn {
-	width: 140px;
-	height: 70px;
+	width: 162px;
+	height: 75px;
 	background-color: #CC9933;
 	color: #FFFFFF;
 	font-family: "Muller";
 	font-weight: 500;
 	border: 2px double  #F1F1F1;
-	border-radius:  20px;
+	border-radius:  13px;
+	font-size: 16px;
 		
 }
 
@@ -301,8 +327,9 @@ flex-flow: column;
 }
 
 .h2-services {
-	padding-left: 67px;
-	margin-bottom: 15px;
+	padding-left: 42px;
+	margin-bottom: 21px;
+	margin-top: 54px;
 }
 .a_services {
 	font-size:22px ;
@@ -310,7 +337,8 @@ flex-flow: column;
 	color:#FFCC66 ;
 	font-family: "Muller";
 	font-weight: 400;
-	padding-left: 30px;
+	padding-left: 43px;
+	
 }
 
 .p_services {
@@ -321,6 +349,7 @@ flex-flow: column;
 	padding-left: 30px;
 	line-height: 25px;
 	padding-right: 120px;
+	margin-top: 32px;
 }
 .services_img {
 	margin-bottom: 20px;
@@ -391,7 +420,7 @@ flex-flow: column;
 }
 
 .back_place {
-	background-image: url(../img/Все\ варианты.png);
+	background-image: url(../img/All_variants.png);
 	display: flex;
 	align-items:flex-end;
 	width: 360px;
