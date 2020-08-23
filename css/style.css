@@ -217,7 +217,7 @@ flex-flow: column;
 
 .a_more {
 	text-decoration: none;
-	color:#FFCC66 ;
+	color:#CC9933;
 	font-family: "Muller";
 	font-weight: 400;
 	padding-left: 37px;
@@ -244,6 +244,14 @@ flex-flow: column;
 
 .arrow {
 	margin-left: 5px;
+}
+
+.color_y {
+	color: #CC9933;
+}
+
+.color_w {
+	color: #FFFFFF;
 }
 
 .h2-spec {
@@ -300,7 +308,8 @@ flex-flow: column;
 	border: 2px double  #F1F1F1;
 	border-radius:  13px;
 	font-size: 16px;
-		
+	cursor: pointer;
+	
 }
 
 .find_number {
@@ -334,10 +343,11 @@ flex-flow: column;
 .a_services {
 	font-size:22px ;
 	text-decoration: none;
-	color:#FFCC66 ;
+	color:#CC9933;
 	font-family: "Muller";
 	font-weight: 400;
 	padding-left: 43px;
+	margin-top: 250px;
 	
 }
 
@@ -346,10 +356,11 @@ flex-flow: column;
 	font-family: "Muller";
 	font-weight: 400;
 	font-size: 16px;
-	padding-left: 30px;
-	line-height: 25px;
+	padding-left: 43px;
+	line-height: 30px;
 	padding-right: 120px;
-	margin-top: 32px;
+	margin-top: 22px;
+	width: 395px;
 }
 .services_img {
 	margin-bottom: 20px;
@@ -412,7 +423,10 @@ flex-flow: column;
 	font-family: "Muller";
 	font-weight: 700;
 	border: 2px double  #CC9933;
-	border-radius:  20px;
+	border-radius:  11px;
+	cursor: pointer;
+	width: 100px;
+
 }
 
 .img_services {
@@ -510,6 +524,8 @@ flex-flow: column;
 	border-radius:  20px;
 	margin-left: 44px;
 	margin-top: 42px;
+	cursor: pointer;
+
 }
 
 .p_contacts {
@@ -610,6 +626,8 @@ flex-flow: column;
 	font-weight: 500;
 	border: 2px double  #F1F1F1;
 	border-radius:  20px;
+	cursor: pointer;
+
 		
 }
 

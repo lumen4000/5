@@ -37,18 +37,17 @@
         <section class="flex-section-2">
             <div class="quick_booking">
                 <h2 class="for-text-h2 h2-spec">Быстрая бронь</h2>
-                <div class="first_rent">
-                    <input type="text" placeholder="Город" class="quick_placeh">
-                    <input type="text" placeholder="Категория номера" class="quick_placeh">
-                    <input type="text" placeholder="Дата заселения" class="quick_placeh">
-                    <input type="text" placeholder="Количество ночей" class="quick_placeh">
-                    <input type="text" placeholder="Количество гостей" class="quick_placeh">
+                <form action="https://jsonplaceholder.typicode.com/posts" autocomplete="on" method="POST" class="first_rent"> 
+                    <input type="text" name="city" placeholder="Город" class="quick_placeh">
+                    <input type="text" name="category " placeholder="Категория номера" class="quick_placeh">
+                    <input type="datetime" name="date" placeholder="Дата заселения" class="quick_placeh">
+                    <input type="number" name="numbers_of_nights" placeholder="Количество ночей" class="quick_placeh">
+                    <input type="number" name="numbers_of_guests" placeholder="Количество гостей" class="quick_placeh">
                     <div class="find_number">
                         <input type="submit"  value="Найти номер" class="btn">
                         <p class="p2"><span class="yellow">9756</span> предложений доступно</p>
-                    </div>     
-                </div>
-                
+                    </div>
+                </form>     
             </div>
             <div class="special_offers">
                 <h2 class="for-text-h2 h2-spec">Спецпредложение</h2>
@@ -56,7 +55,7 @@
                     <h3 class="text-color-h3"> Номера категории люкс</h3>
                     <span class="text-span-srecial">от 5 000 р</span>
                     <a href="#" class="a_more"> Подробнее </a>
-                    <img src="./img/Прямоугольник 2 копия 7.png" alt="Стрелочка" class="arrow">
+                    <i class="fa fa-angle-right arrow collor_y" alt="Стрелочка"></i>                
                 </div>
             </div>
         </section>
@@ -70,26 +69,26 @@
                 <div class="block_services">
                     <img src="./img/Services/Saunas.png" alt="Сауны" class="services_img">
                     <a href="#" class="a_services">Сауны, бассейны, бани, фитнес-залы</a>
-                    <img src="./img/Прямоугольник 2 копия 7.png" alt="Стрелочка" class="arrow">
+                    <i class="fa fa-angle-right arrow color_y" alt="Стрелочка"></i>                
                     <p class="p_services">Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
                 </div>
                 <div class="block_services">
                 <img src="./img/Services/Protected_vehicles.png" alt="Охраняемые автомобильные стоянки" class="services_img"> 
                 <a href="#" class="a_services"> Охраняемые автомобильные стоянки</a>
-                <img src="./img/Прямоугольник 2 копия 7.png" alt="Стрелочка" class="arrow">
+                <i class="fa fa-angle-right arrow color_y" alt="Стрелочка"></i>                
                 <p class="p_services">Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
                 </div>    
             <div class="block_services">
                 <img src="./img/Services/Exclusive_service.png" alt="эксклюзивное обслуживание" class="services_img">
                 <a href="#" class="a_services">Эксклюзивное обслуживание </a>
-                <img src="./img/Прямоугольник 2 копия 7.png" alt="Стрелочка" class="arrow">
-                <p class="p_services">Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
+                <i class="fa fa-angle-right arrow color_y" alt="Стрелочка"></i>                
+                <p class="p_services">Равным образом постоянный количественный рост и сфера нашей активности</p>
             </div>
             
             <div class="block_services">
                 <img src="./img/Services/Rent_place.png" alt="Аренда банкетных залов" class="services_img">
                 <a href="#" class="a_services">Аренда банкетных залов</a>
-                <img src="./img/Прямоугольник 2 копия 7.png" alt="Стрелочка" class="arrow">
+                <i class="fa fa-angle-right arrow color_y" alt="Стрелочка"></i>                
                 <p class="p_services">Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм.</p>
             </div>
             </div> 
@@ -284,7 +283,7 @@
                 <div class="placement back_place">
                     <div class="a_possition">
                         <a href="#" class="a_placement">Посмотреть все варианты</a>
-                        <img src="./img/Прямоугольник 2 копия 16.png" alt="" class="img_possition">
+                        <i class="fa fa-angle-right color_w img_possition" alt="Стрелочка"></i>                
                     </div>
                 </div>
             </div>
@@ -322,13 +321,13 @@
                   <input type="submit"  value="Построить маршрут" class="btn_route">
                 </div>
             </div>
-            <div class="write_us">
+            <form action="https://jsonplaceholder.typicode.com/posts" autocomplete="on" method="POST" class="write_us"> 
                 <h2 class="for-text-h2 h2-write_us">Напишите нам</h2>
-                <input type="text" placeholder="Имя" class="writeus_placeh">
-                <input type="text" placeholder="+7" class="writeus_placeh">
-                <textarea placeholder="Сообщение..." class="writeus_placeh_big"></textarea>
+                <input type="text" name="name" placeholder="Имя" class="writeus_placeh">
+                <input type="tel" name="phone" placeholder="+7" class="writeus_placeh">
+                <textarea name="message" placeholder="Сообщение..." class="writeus_placeh_big"></textarea>
                 <input type="submit"  value="Отправить" class="btn_send">
-            </div>
+            </form>
         </section>
         <footer  class="footer">
             <div class="p-footer-1">
