@@ -66,13 +66,69 @@ background-color: #F1F1F1;
 
 }
 
+.arrow_possition { 
+	color: #CC9933;
+	margin-top: 18px;
+	margin-right: 3px;
+
+
+}
+
+.flex_cabinet {
+	display: flex;
+	justify-content: flex-end;
+}
+
 .phone {
 	margin-left: 25px;
 	margin-top: 17px;
 	font-family: 'Muller';
 	font-weight: 700;
 	font-size: 22px;
+	text-decoration: none;
 }
+
+.phone_st {
+	text-decoration: none;
+	color: #666666;
+
+}
+
+.form_seach {
+	position: relative;
+	display: inline-block;
+  
+}
+  
+.input_search {
+	margin-top: 10px;
+	margin-right: 15px;
+	width: 300px;
+	height: 50px;
+	border: 0;
+	background-color: #F1F1F1;
+	border-radius: 20px;
+	padding: 5px;
+	font-size: 20px;
+}
+  
+.btn_search {
+	margin-top: 5px;
+	width: 50px;
+	height: 50px;
+	margin-right: 20px;
+	
+	border: 0;
+	background: url('http://abhc.com.au/images/icon-search.png') no-repeat 50% 50%;
+	background-size: 50%;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	cursor: pointer;
+}
+
+
+
 
 .about {
 	display:flex;
@@ -91,6 +147,9 @@ background-color: #F1F1F1;
 	padding-inline-start: 18px;
 	
 }
+
+
+
 
 .img_search {
 	border: 2px double white;
@@ -111,6 +170,7 @@ background-color: #F1F1F1;
 }
 
 .text_placeh::placeholder {
+	padding-left: 20px;
 	background-color: #F1F1F1;
 	color: #BEBEBE;
 	font-family: "Muller";
@@ -137,8 +197,9 @@ background-color: #F1F1F1;
 
 }
 
-.text_placeh:valid {
-	background-color: #F1F1F1;
+
+ text_placeh:valid {
+	background-color: #BEBEBE;
 
 }
 
@@ -151,6 +212,12 @@ background-color: #F1F1F1;
 
 }
 
+.about_a { 
+	text-decoration: none;
+	color: #333333;
+	
+}
+
 .flex-section-2 {
 	display:flex;
 	flex-wrap: nowrap;
@@ -158,8 +225,8 @@ background-color: #F1F1F1;
 }
 
 .quick_booking {
-display: flex;
-flex-flow: column;
+    display: flex;
+    flex-flow: column;
 }
 
 .quick_placeh {
@@ -240,6 +307,11 @@ flex-flow: column;
 	font-family: "Muller";
 	font-weight: 400;
 	font-size: 40px;
+}
+
+.empty_block {
+	width: 570px;
+	height: 190px;
 }
 
 .arrow {
@@ -325,9 +397,28 @@ flex-flow: column;
 	background-color: #FFFFFF;
 	margin-bottom: 10px;
 	margin-right: 10px;
-	border: 2px double  #FFFFFF;
-	border-radius:  20px;
 	
+	
+}
+
+.img_sauna { 
+	background-image: url(../img/Services/Saunas.png);
+	background-repeat: no-repeat;
+}
+
+.img_protected_vehicles { 
+	background-image: url(../img/Services/Protected_vehicles.png);
+	background-repeat: no-repeat;
+}
+
+.img_exclusive_service { 
+	background-image: url(../img/Services/Exclusive_service.png);
+	background-repeat: no-repeat;
+}
+
+.img_rent_place { 
+	background-image: url(../img/Services/Rent_place.png);
+	background-repeat: no-repeat;
 }
 
 .flex_services {
@@ -369,6 +460,8 @@ flex-flow: column;
 .flex_advantage {
 	display: flex;
 	flex-flow:wrap;
+	justify-content: space-between;
+	
 	
 }
 
@@ -377,7 +470,6 @@ flex-flow: column;
 	height: 265px;
 	background-color: #FFFFFF;
 	margin-bottom: 20px;
-	margin-right: 20px;
 	display: flex;
 	align-items:flex-start;
 	flex-direction:column;
@@ -387,7 +479,7 @@ flex-flow: column;
 	padding-left: 45px;
 	padding-right: 45px;
 	line-height: 25px;
-	padding-top: 40px;
+	padding-top: 100px;
 	font-family: "Muller";
 	font-weight: 400;
 	color: #333333;
@@ -395,11 +487,68 @@ flex-flow: column;
 
 }
 
+.adv_1 {
+	background-image: url(../img/Advantages/Advantages_1.png);
+	background-repeat: no-repeat;
+	background-position: 23% 20%;
+	
+}
+
+.adv_2 {
+	background-image: url(../img/Advantages/Advantages_2.png);
+	background-repeat: no-repeat;
+	background-position: 23% 20%;
+	
+}
+
+.adv_3 {
+	background-image: url(../img/Advantages/Advantages_3.png);
+	background-repeat: no-repeat;
+	background-position: 23% 20%;
+	
+}
+
+
+.adv_4 {
+	background-image: url(../img/Advantages/Advantages_4.png);
+	background-repeat: no-repeat;
+	background-position: 23% 20%;
+	
+}
+
+.adv_5 {
+	background-image: url(../img/Advantages/Advantages_5.png);
+	background-repeat: no-repeat;
+	background-position: 23% 20%;
+	
+}
+
+.adv_6 {
+	background-image: url(../img/Advantages/Advantages_6.png);
+	background-repeat: no-repeat;
+	background-position: 23% 20%;
+	
+}
+
+.adv_7 {
+	background-image: url(../img/Advantages/Advantages_7.png);
+	background-repeat: no-repeat;
+	background-position: 23% 20%;
+	
+}
+
+.adv_8 {
+	background-image: url(../img/Advantages/Advantages_8.png);
+	background-repeat: no-repeat;
+	background-position: 23% 20%;
+	
+}
 
 .flex_placement {
 	display: flex;
 	align-items:flex-start;
 	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .placement {
@@ -408,7 +557,6 @@ flex-flow: column;
 	border: 2px double  #F1F1F1;
 	border-radius:  20px;
 	margin-bottom: 25px;
-	margin-right: 25px;
 	background-color: #FFFFFF;
 	
 }

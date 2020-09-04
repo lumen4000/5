@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,26 +12,35 @@
         <header class="header">
         <div class="flex_header">
             <img src="./img/header.png" alt="sun">
-            <div class="phone">+7 495 322 54 48</div>
+            <div class="phone"><a href="tel:+7 495 322 54 48" class="phone_st"> +7 495 322 54 48</a></div>
         </div>
+        <div class="flex_cabinet">
+        <i class="fa fa-arrow-circle-o-right arrow_possition"></i>
         <p class="cabinet">Личный кабинет </p>
+        </div>
         </header>
         <section>
             <div class="about">
                 <nav>
                     <ul class="list">
-                        <li class="li_about">О нас</li>
-                        <li class="li_about">Услуги</li>
-                        <li class="li_about">Преимущества</li>
-                        <li class="li_about">Размещение</li>
-                        <li class="li_about">Блог</li>
-                        <li class="li_about">Контакты</li>
+                        <li class="li_about"><a href="#about_us" class="about_a"> О нас </a></li>
+                        <li class="li_about"><a href="#services" class="about_a"> Услуги </a></li>
+                        <li class="li_about"><a href="#advantage" class="about_a"> Преимущества </a></li>
+                        <li class="li_about"><a href="#placement" class="about_a">  Размещение </a></li>
+                        <li class="li_about"><a href="#" class="about_a"> Блог </a></li>
+                        <li class="li_about"><a href="#contacts" class="about_a"> Контакты </a></li>
                     </ul>
                 </nav> 
+                    <!-- 
                     <div class="img_search">
                     <input type="text" placeholder="Поиск" class="text_placeh">
                     <img src="./img/search@1X.png" alt="Поиск" class="search_possition">
                     </div>
+                -->
+                <form action="#" class="form_seach">
+                    <input type="search" class="input_search text_placeh" placeholder="Поиск" >
+                    <button class="btn_search"></button>
+                </form>
                 </div>
         </section>
         <section class="flex-section-2">
@@ -40,7 +49,7 @@
                 <form action="https://jsonplaceholder.typicode.com/posts" autocomplete="on" method="POST" class="first_rent"> 
                     <input type="text" name="city" placeholder="Город" class="quick_placeh">
                     <input type="text" name="category " placeholder="Категория номера" class="quick_placeh">
-                    <input type="datetime" name="date" placeholder="Дата заселения" class="quick_placeh">
+                    <input type="number" name="date" placeholder="Дата заселения" class="quick_placeh">
                     <input type="number" name="numbers_of_nights" placeholder="Количество ночей" class="quick_placeh">
                     <input type="number" name="numbers_of_guests" placeholder="Количество гостей" class="quick_placeh">
                     <div class="find_number">
@@ -55,83 +64,75 @@
                     <h3 class="text-color-h3"> Номера категории люкс</h3>
                     <span class="text-span-srecial">от 5 000 р</span>
                     <a href="#" class="a_more"> Подробнее </a>
-                    <i class="fa fa-angle-right arrow collor_y" alt="Стрелочка"></i>                
+                    <i class="fa fa-angle-right arrow collor_y" ></i>                
                 </div>
             </div>
         </section>
         <section class="about_us">
-            <h2 class="for-text-h2 h2-about_us">О нас</h2>
+            <h2 class="for-text-h2 h2-about_us"><a name="about_us"> О нас </a></h2>
             <p class="p-about_us">Идейные соображения высшего порядка, а также сложившаяся структура организации влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям. Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности представляет собой интересный эксперимент проверки системы обучения кадров, соответствует насущным потребностям. Равным образом сложившаяся структура организации требуют определения и уточнения существенных финансовых и административных условий.</p>
         </section>
         <section>
-            <h2 class="for-text-h2 h2-services">Услуги</h2>
+            <h2 class="for-text-h2 h2-services"><a name="services"> Услуги </a></h2>
             <div class="flex_services">
-                <div class="block_services">
-                    <img src="./img/Services/Saunas.png" alt="Сауны" class="services_img">
+                <div class="block_services img_sauna">
+                    <div class="empty_block"></div>
                     <a href="#" class="a_services">Сауны, бассейны, бани, фитнес-залы</a>
-                    <i class="fa fa-angle-right arrow color_y" alt="Стрелочка"></i>                
+                    <i class="fa fa-angle-right arrow color_y" ></i>                
                     <p class="p_services">Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
                 </div>
-                <div class="block_services">
-                <img src="./img/Services/Protected_vehicles.png" alt="Охраняемые автомобильные стоянки" class="services_img"> 
-                <a href="#" class="a_services"> Охраняемые автомобильные стоянки</a>
-                <i class="fa fa-angle-right arrow color_y" alt="Стрелочка"></i>                
-                <p class="p_services">Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
+                <div class="block_services img_protected_vehicles">
+                    <div class="empty_block"></div>   
+                    <a href="#" class="a_services"> Охраняемые автомобильные стоянки</a>
+                    <i class="fa fa-angle-right arrow color_y" ></i>                
+                    <p class="p_services">Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
                 </div>    
-            <div class="block_services">
-                <img src="./img/Services/Exclusive_service.png" alt="эксклюзивное обслуживание" class="services_img">
+            <div class="block_services img_exclusive_service">
+                <div class="empty_block"></div>
                 <a href="#" class="a_services">Эксклюзивное обслуживание </a>
-                <i class="fa fa-angle-right arrow color_y" alt="Стрелочка"></i>                
+                <i class="fa fa-angle-right arrow color_y" ></i>                
                 <p class="p_services">Равным образом постоянный количественный рост и сфера нашей активности</p>
             </div>
             
-            <div class="block_services">
-                <img src="./img/Services/Rent_place.png" alt="Аренда банкетных залов" class="services_img">
+            <div class="block_services img_rent_place">
+                <div class="empty_block"></div>
                 <a href="#" class="a_services">Аренда банкетных залов</a>
-                <i class="fa fa-angle-right arrow color_y" alt="Стрелочка"></i>                
+                <i class="fa fa-angle-right arrow color_y" ></i>                
                 <p class="p_services">Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм.</p>
             </div>
             </div> 
         </section>
         <section>
-            <h2 class="for-text-h2 h2-services">Преимущества</h2>
+            <h2 class="for-text-h2 h2-services"><a name="advantage"> Преимущества</a></h2>
             <div class="flex_advantage">
-            <div class="advantage">
-                <img src="./img/Advantages/Advantages_1.png" alt="" class="img_advantage">
+            <div class="advantage adv_1">
                 <p class="p-advantage">Идейные соображения высшего порядка, а также постоянный количественный рост</p>
             </div>
-            <div class="advantage">
-                <img src="./img/Advantages/Advantages_2.png" alt="" class="img_advantage">
+            <div class="advantage adv_2">
                 <p class="p-advantage">Значимость этих проблем настолько очевидна, что вопрос остается открытым</p>
             </div>
-            <div class="advantage">
-                <img src="./img/Advantages/Advantages_3.png" alt="" class="img_advantage">
+            <div class="advantage adv_3">
                 <p class="p-advantage">Таким образом реализация плановых заданий играет важную роль для понимания</p>
             </div>
-            <div class="advantage">
-                <img src="./img/Advantages/Advantages_4.png" alt="" class="img_advantage">
+            <div class="advantage adv_4">
                 <p class="p-advantage">Повседневная практика показывает, что сложившаяся структура организации</p>
             </div>
-            <div class="advantage">
-                <img src="./img/Advantages/Advantages_5.png" alt="" class="img_advantage">
+            <div class="advantage adv_5">
                 <p class="p-advantage">Равным образом рамки и место обучения кадров способствует подготовки сотрудника</p>
             </div>
-            <div class="advantage">
-                <img src="./img/Advantages/Advantages_6.png" alt="" class="img_advantage">
+            <div class="advantage adv_6">
                 <p class="p-advantage">Консультация с активом влечет за собой процесс внедрения услуг нашего сервиса </p>
             </div>
-            <div class="advantage">
-                <img src="./img/Advantages/Advantages_7.png" alt="" class="img_advantage">
+            <div class="advantage adv_7">
                 <p class="p-advantage">Повседневная практика показывает, что дальнейшее развитие различных форм</p>
             </div>
-            <div class="advantage">
-                <img src="./img/Advantages/Advantages_8.png" alt="" class="img_advantage">
+            <div class="advantage adv_8">
                 <p class="p-advantage">Значимость этого настолько очевидна, что консультация наших экспертов помогает</p>
             </div>
         </div>
         </section>
         <section>
-            <h2 class="for-text-h2 h2-services">Размещение</h2>
+            <h2 class="for-text-h2 h2-services"><a name="placement"> Размещение </a></h2>
             <div class="flex_placement">
                 <div class="placement">
                     <img src="./img/Placement/4698.png" alt="" class="img_services">
@@ -283,14 +284,14 @@
                 <div class="placement back_place">
                     <div class="a_possition">
                         <a href="#" class="a_placement">Посмотреть все варианты</a>
-                        <i class="fa fa-angle-right color_w img_possition" alt="Стрелочка"></i>                
+                        <i class="fa fa-angle-right color_w img_possition" ></i>                
                     </div>
                 </div>
             </div>
         </section>
         <section class="flex_contacts_writeus">
             <div class="flex_contacts">
-                <h2 class="for-text-h2 h2-services">Контакты</h2>
+                <h2 class="for-text-h2 h2-services"><a name="contacts"></a> Контакты</h2>
                 <div class="contacts">
                   <div class="flex_contacts_in top">
                       <p class="p_contacts">Адрес</p>
@@ -350,11 +351,11 @@
                     hotels.ln@mail.ru</span></p>
             </div>
             <div class="footer-soc">
-                <img src="./img/footer/tripadvisor.png" alt="tripadvisor">
-                <img src="./img/footer/twitter.png" alt="twitter" class="soc-possition">
-                <img src="./img/footer/facebook.png" alt="facebook" class="soc-possition">
-                <img src="./img/footer/social.png" alt="social" class="soc-possition">
-                <img src="./img/footer/google-plus-social-logotype.png" alt="google-plus-social-logotype" class="soc-possition">
+                <a href="https://www.tripadvisor.ru/" target="_blank"> <img src="./img/footer/tripadvisor.png" alt="tripadvisor"> </a>
+                <a href="https://twitter.com/" target="_blank"> <img src="./img/footer/twitter.png" alt="twitter" class="soc-possition"></a>
+                <a href="https://www.facebook.com/" target="_blank"> <img src="./img/footer/facebook.png" alt="facebook" class="soc-possition"></a>
+                <a href="https://vk.com/" target="_blank"> <img src="./img/footer/social.png" alt="social" class="soc-possition"> </a>
+                <a href="https://myaccount.google.com/" target="_blank"> <img src="./img/footer/google-plus-social-logotype.png" alt="google-plus-social-logotype" class="soc-possition"> </a>
             </div>
         </footer>    
     </div>
