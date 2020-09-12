@@ -34,14 +34,21 @@
 	font-style: normal;
 }
 
-
-.body{
-background-color: #F1F1F1;
+html,
+body {
+	margin: 0;
+	padding: 0;
 }
 
 
+.body{
+	background-color: #F1F1F1;
+	font-family: 'Muller', sans-serif;
+}	
+
+
 .container {
-    max-width: 1170px;
+    width: 1170px;
     margin: 0 auto;
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -55,13 +62,11 @@ background-color: #F1F1F1;
 
 .flex_header { 
     color:#666666 ;
-    font-family: "Muller";
 	display: flex;
 }
 
 .cabinet {
     color:#CC9933;
-	font-family: 'Muller', sans-serif;
 	font-size: 18px;
 
 }
@@ -74,6 +79,8 @@ background-color: #F1F1F1;
 
 }
 
+
+
 .flex_cabinet {
 	display: flex;
 	justify-content: flex-end;
@@ -82,7 +89,6 @@ background-color: #F1F1F1;
 .phone {
 	margin-left: 25px;
 	margin-top: 17px;
-	font-family: 'Muller';
 	font-weight: 700;
 	font-size: 22px;
 	text-decoration: none;
@@ -102,14 +108,11 @@ background-color: #F1F1F1;
   
 .input_search {
 	margin-top: 10px;
-	margin-right: 15px;
-	width: 300px;
+	margin-right: 20px;
+	width: 355px;
 	height: 50px;
-	border: 0;
 	background-color: #F1F1F1;
-	border-radius: 20px;
-	padding: 5px;
-	font-size: 20px;
+	border-radius: 14px;
 }
   
 .btn_search {
@@ -154,7 +157,6 @@ background-color: #F1F1F1;
 .img_search {
 	border: 2px double white;
 	border-radius:  19px;
-	font-family: "Muller";
 	background-color: #F1F1F1;
 	display:flex;
 	align-items: center;
@@ -173,7 +175,6 @@ background-color: #F1F1F1;
 	padding-left: 20px;
 	background-color: #F1F1F1;
 	color: #BEBEBE;
-	font-family: "Muller";
 	font-weight: 400;
 
 	
@@ -186,7 +187,6 @@ background-color: #F1F1F1;
 	display: block;
 	margin-left: 22px;
 	font-size: 10px;
-	font-family: "Muller";
 	font-weight: 400;
 
 }	
@@ -205,7 +205,6 @@ background-color: #F1F1F1;
 
 .li_about {
 	padding-right: 43px;
-	font-family: "Muller";
 	font-weight: 400;
 	font-size: 17px;
 	margin-top: 9px;
@@ -232,9 +231,8 @@ background-color: #F1F1F1;
 .quick_placeh {
 	border: 2px double  #F1F1F1;
 	border-radius:  20px;
-	font-family: "Muller";
 	background-color:white;
-	line-height:72px;
+	min-height: 72px;
 	margin-bottom: 16px;
 	font-weight: 400;
 	font-size: 16px;
@@ -244,7 +242,6 @@ background-color: #F1F1F1;
 .quick_placeh::placeholder {
 	color: #999999;
 	padding-left: 15px;
-	font-family: "Muller";
 	font-weight: 400;
 }
 
@@ -269,7 +266,6 @@ background-color: #F1F1F1;
 
 .text-color-h3 { 
 	color: #FFFFFF;
-	font-family: "Muller";
 	font-size: 66px;
 	display: table-caption;
 	font-weight: 500;
@@ -285,7 +281,6 @@ background-color: #F1F1F1;
 .a_more {
 	text-decoration: none;
 	color:#CC9933;
-	font-family: "Muller";
 	font-weight: 400;
 	padding-left: 37px;
 	font-size: 16px;
@@ -295,7 +290,6 @@ background-color: #F1F1F1;
 
 .text-span-srecial {
 	color: #FFFFFF;
-	font-family: "Muller";
 	font-weight: 400;
 	font-size: 35px;
 	opacity: .49019607843137253;
@@ -304,18 +298,19 @@ background-color: #F1F1F1;
 
 .for-text-h2 {
 	color: #333333;
-	font-family: "Muller";
 	font-weight: 400;
 	font-size: 40px;
 }
 
 .empty_block {
 	width: 570px;
-	height: 190px;
+	height: 199px;
 }
 
+
+
 .arrow {
-	margin-left: 5px;
+	margin-left: 10px;
 }
 
 .color_y {
@@ -347,7 +342,6 @@ background-color: #F1F1F1;
 
 .p-about_us {
 	color: #666666;
-	font-family: "Muller";
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 32px;
@@ -358,12 +352,10 @@ background-color: #F1F1F1;
 
 .yellow {
 	color: #CC9933;
-	font-family: "Muller";
 	font-weight: 500;
 }
 
 .p2 {
-	font-family: "Muller";
 	font-weight: 400;
 	color: #999999;
 	padding-left: 25px;
@@ -375,7 +367,6 @@ background-color: #F1F1F1;
 	height: 75px;
 	background-color: #CC9933;
 	color: #FFFFFF;
-	font-family: "Muller";
 	font-weight: 500;
 	border: 2px double  #F1F1F1;
 	border-radius:  13px;
@@ -392,14 +383,35 @@ background-color: #F1F1F1;
 }
 
 .block_services {
-	width: 570px;
+	width: 573px;
 	height: 326px;
 	background-color: #FFFFFF;
-	margin-bottom: 10px;
-	margin-right: 10px;
+	
 	
 	
 }
+
+.block_services:nth-child(3) {
+	margin-bottom: 23px;
+	margin-right: 24px;
+}
+
+.block_services:nth-child(1) {
+	
+	margin-right: 23px;
+}
+
+.block_services:nth-child(4) {
+	
+	margin-bottom: 23px;
+}
+
+
+.serv-pos {
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
 
 .img_sauna { 
 	background-image: url(../img/Services/Saunas.png);
@@ -429,30 +441,93 @@ background-color: #F1F1F1;
 .h2-services {
 	padding-left: 42px;
 	margin-bottom: 21px;
-	margin-top: 54px;
+	margin-top: 57px;
 }
 .a_services {
 	font-size:22px ;
 	text-decoration: none;
 	color:#CC9933;
-	font-family: "Muller";
+	font-weight: 400;
+	padding-left: 45px;
+	margin-top: 250px;
+	padding-top: 10px;
+	
+}
+
+.a_services-2 {
+	font-size:22px ;
+	text-decoration: none;
+	color:#CC9933;
 	font-weight: 400;
 	padding-left: 43px;
 	margin-top: 250px;
 	
 }
 
+.a_services-3 {
+	font-size:22px ;
+	text-decoration: none;
+	color:#CC9933;
+	font-weight: 400;
+	padding-left: 43px;
+	margin-top: 250px;
+	
+}
+
+.a_services-4 {
+	font-size:22px ;
+	text-decoration: none;
+	color:#CC9933;
+	font-weight: 400;
+	padding-left: 45px;
+	margin-top: 250px;
+	
+}
+
 .p_services {
 	color: #666666;
-	font-family: "Muller";
 	font-weight: 400;
 	font-size: 16px;
-	padding-left: 43px;
+	padding-left: 46px;
 	line-height: 30px;
-	padding-right: 120px;
-	margin-top: 22px;
+	margin-top: 11px;
 	width: 395px;
 }
+
+.p_services-2 {
+	color: #666666;
+	font-weight: 400;
+	font-size: 16px;
+	padding-left: 46px;
+	line-height: 30px;
+	margin-top: 10px;
+	width: 395px;
+}
+
+
+.p_services-3 {
+	color: #666666;
+	font-weight: 400;
+	font-size: 16px;
+	padding-left: 46px;
+	line-height: 30px;
+	padding-right: 120px;
+	margin-top: 10px;
+	width: 395px;
+}
+
+
+.p_services-4 {
+	color: #666666;
+	font-weight: 400;
+	font-size: 16px;
+	padding-left: 46px;
+	line-height: 30px;
+	margin-top: 11px;
+	width: 395px;
+}
+
+
 .services_img {
 	margin-bottom: 20px;
 }
@@ -466,8 +541,8 @@ background-color: #F1F1F1;
 }
 
 .advantage {
-	width: 265px;
-	height: 265px;
+	width: 279px;
+	height: 278px;
 	background-color: #FFFFFF;
 	margin-bottom: 20px;
 	display: flex;
@@ -478,33 +553,38 @@ background-color: #F1F1F1;
 	box-sizing: border-box;
 	padding-left: 45px;
 	padding-right: 45px;
-	line-height: 25px;
+	line-height: 32px;
 	padding-top: 100px;
-	font-family: "Muller";
 	font-weight: 400;
 	color: #333333;
 	font-size: 14px;
 
 }
 
+.h2-advantage {
+	padding-left: 42px;
+	margin-bottom: 21px;
+	margin-top: 67px;
+}
+
 .adv_1 {
 	background-image: url(../img/Advantages/Advantages_1.png);
 	background-repeat: no-repeat;
-	background-position: 23% 20%;
+	background-position: 21% 21%;
 	
 }
 
 .adv_2 {
 	background-image: url(../img/Advantages/Advantages_2.png);
 	background-repeat: no-repeat;
-	background-position: 23% 20%;
+	background-position: 20% 19%;
 	
 }
 
 .adv_3 {
 	background-image: url(../img/Advantages/Advantages_3.png);
 	background-repeat: no-repeat;
-	background-position: 23% 20%;
+	background-position: 22% 20%;
 	
 }
 
@@ -512,35 +592,35 @@ background-color: #F1F1F1;
 .adv_4 {
 	background-image: url(../img/Advantages/Advantages_4.png);
 	background-repeat: no-repeat;
-	background-position: 23% 20%;
+	background-position: 22% 20%;
 	
 }
 
 .adv_5 {
 	background-image: url(../img/Advantages/Advantages_5.png);
 	background-repeat: no-repeat;
-	background-position: 23% 20%;
+	background-position: 20% 20%;
 	
 }
 
 .adv_6 {
 	background-image: url(../img/Advantages/Advantages_6.png);
 	background-repeat: no-repeat;
-	background-position: 23% 20%;
+	background-position: 21% 20%;
 	
 }
 
 .adv_7 {
 	background-image: url(../img/Advantages/Advantages_7.png);
 	background-repeat: no-repeat;
-	background-position: 23% 20%;
+	background-position: 22% 21%;
 	
 }
 
 .adv_8 {
 	background-image: url(../img/Advantages/Advantages_8.png);
 	background-repeat: no-repeat;
-	background-position: 23% 20%;
+	background-position: 20% 20%;
 	
 }
 
@@ -551,9 +631,15 @@ background-color: #F1F1F1;
 	justify-content: space-between;
 }
 
+.h2-placement {
+	padding-left: 42px;
+	margin-bottom: 19px;
+	margin-top: 48px;
+}
+
 .placement {
-	width: 360px;
-	height: 430px;
+	width: 374px;
+	height: 442px;
 	border: 2px double  #F1F1F1;
 	border-radius:  20px;
 	margin-bottom: 25px;
@@ -568,7 +654,6 @@ background-color: #F1F1F1;
 	height: 44px;
 	background-color: #FFFFFF; 
 	color : #CC9933; 
-	font-family: "Muller";
 	font-weight: 700;
 	border: 2px double  #CC9933;
 	border-radius:  11px;
@@ -594,7 +679,6 @@ background-color: #F1F1F1;
 .a_placement {
 	text-decoration: none;
 	color: #FFFFFF;
-	font-family: "Muller";
 	font-weight: 500;
 	font-size: 20px;
 	
@@ -612,18 +696,22 @@ background-color: #F1F1F1;
 
 .p_plac_1 {
 	color: #969696;
-	font-family: "Muller";
 	font-weight: 500;
+	padding-top: 19px;
+	font-size: 16px;
 }
 
 .span_plac {
 	color: #333333;
-	font-family: "Muller";
 	font-weight: 700;
 }
 
 .p_plac_2 {
-	font-family: "Muller";
+	font-weight: 400;
+	margin-top: 0px;
+}
+
+.p_plac_3 {
 	font-weight: 400;
 }
 
@@ -634,13 +722,19 @@ background-color: #F1F1F1;
 }
 
 .stars {
-	padding-left: 30px;
+	padding-left:64px;
+	padding-top: 24px;
 }
 
 .flex_content_place {
 	padding-left: 40px;
 }
 
+.h2-contacts {
+	padding-left: 42px;
+	margin-bottom: 21px;
+	margin-top: 27px;
+}
 .contacts {
 	width: 473px;
 	height: 620px;
@@ -666,27 +760,34 @@ background-color: #F1F1F1;
 	height: 71px;
 	background-color: #FFFFFF; 
 	color : #CC9933; 
-	font-family: "Muller";
 	font-weight: 700;
 	border: 2px double  #CC9933;
 	border-radius:  20px;
 	margin-left: 44px;
-	margin-top: 42px;
+	margin-top: 29px;
 	cursor: pointer;
 
 }
 
+
+
 .p_contacts {
 	color: #666666;
 	font-size: 22px;
-	font-family: "Muller";
 	font-weight: 700;
 	width: 140px;
+	margin-top: 13px;
+}
+
+.contacts-a {
+	color: #CC9933;
+	font-weight: 400;
+	font-size: 16px;
+	text-decoration: none;
 }
 
 .p_contacts_2 {
 	color: #333333;
-	font-family: "Muller";
 	font-weight: 400;
 	font-size: 16px;
 }
@@ -694,14 +795,12 @@ background-color: #F1F1F1;
 .p_yellow {
 	color: #CC9933;
 	font-size: 16px;
-	font-family: "Muller";
 	font-weight: 400;
 
 }
 
 .p_contacts_3 {
 	font-size: 16px;
-	font-family: "Muller";
 	font-weight: 400;
 	color: #969696;
 
@@ -732,24 +831,21 @@ background-color: #F1F1F1;
 .writeus_placeh {
 	border: 2px double  #F1F1F1;
 	border-radius:  20px;
-	font-family: "Muller";
 	background-color:white;
-	width: 341px;
-	height: 71px;
+	width: 332px;
+	height: 70px;
 	margin-bottom: 20px;
 }
 
 .writeus_placeh::placeholder {
 	color: #999999;
 	padding-left: 15px;
-	font-family: "Muller";
 	font-weight: 400;
 }
 
 .writeus_placeh_big::placeholder {
 	color: #999999;
 	padding-left: 15px;
-	font-family: "Muller";
 	font-weight: 400;
 	padding-top: 15px;
 }
@@ -758,7 +854,6 @@ background-color: #F1F1F1;
 .writeus_placeh_big {
 	border: 2px double  #F1F1F1;
 	border-radius:  20px;
-	font-family: "Muller";
 	background-color:white;
 	width: 341px;
 	height: 111px;
@@ -770,7 +865,6 @@ background-color: #F1F1F1;
 	height: 71px;
 	background-color: #CC9933;
 	color: #FFFFFF;
-	font-family: "Muller";
 	font-weight: 500;
 	border: 2px double  #F1F1F1;
 	border-radius:  20px;
@@ -790,7 +884,7 @@ background-color: #F1F1F1;
 	background-color: #333333;
 	width: 1169px;
 	height: 339px;
-	margin-top: 21px;
+	margin-top: 19px;
 	border: 2px double  #333333;
 	border-radius:  20px;
 	background-image: url(../img/footer/funny_sun.png);
@@ -808,7 +902,6 @@ background-color: #F1F1F1;
 	line-height:30px;
 	margin-left: 53px;
 	margin-bottom: 50px;
-	font-family: "Muller";
 	font-weight: 500;
 
 }
@@ -819,7 +912,6 @@ background-color: #F1F1F1;
 	line-height:30px;
 	margin-left: 120px;
 	margin-bottom: 50px;
-	font-family: "Muller";
 	font-weight: 500;
 
 }
@@ -828,10 +920,25 @@ background-color: #F1F1F1;
 	display: flex;
 	align-items: baseline;
 	flex-flow: column;
-	margin-left: 280px;
-	margin-top: 50px;	
+	margin-left: 260px;
+	margin-top: 45px;	
+}
+
+.footer-color-a {
+	color: #CC9933;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 400;
+
+}
+
+.yellow-footer-a {
+	color: #CC9933;
+	font-weight: 500;
+	text-decoration: none;
 }
 
 .soc-possition {
 	margin-top: 21px;
 }
+
