@@ -1,0 +1,23 @@
+.header { 
+    display:flex;
+    justify-content: space-between;
+}
+
+.flex_header { 
+    color:#666666 ;
+	display: flex;
+}
+
+.phone {
+	margin-left: 25px;
+	margin-top: 17px;
+	font-weight: 700;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+.phone_st {
+	text-decoration: none;
+	color: #666666;
+
+}

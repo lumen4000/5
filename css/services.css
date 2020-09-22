@@ -1,0 +1,184 @@
+
+
+
+
+.empty_block {
+	width: 570px;
+	height: 199px;
+}
+
+
+
+.arrow {
+	margin-left: 10px;
+}
+
+.color_y {
+	color: #CC9933;
+}
+
+.color_w {
+	color: #FFFFFF;
+}
+
+
+
+
+.yellow {
+	color: #CC9933;
+	font-weight: 500;
+}
+
+
+
+
+
+.block_services {
+	width: 573px;
+	height: 326px;
+	background-color: #FFFFFF;
+	border-radius: 20px;
+	
+	
+}
+
+.block_services:nth-child(3) {
+	margin-bottom: 23px;
+	margin-right: 24px;
+}
+
+.block_services:nth-child(1) {
+	
+	margin-right: 23px;
+}
+
+.block_services:nth-child(4) {
+	
+	margin-bottom: 23px;
+}
+
+
+.serv-pos {
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+
+.img_sauna { 
+	background-image: url(../img/Services/Saunas.png);
+	background-repeat: no-repeat;
+}
+
+.img_protected_vehicles { 
+	background-image: url(../img/Services/Protected_vehicles.png);
+	background-repeat: no-repeat;
+}
+
+.img_exclusive_service { 
+	background-image: url(../img/Services/Exclusive_service.png);
+	background-repeat: no-repeat;
+}
+
+.img_rent_place { 
+	background-image: url(../img/Services/Rent_place.png);
+	background-repeat: no-repeat;
+}
+
+.flex_services {
+	display: flex;
+	flex-flow:wrap-reverse;
+}
+
+.h2-services {
+	padding-left: 42px;
+	margin-bottom: 21px;
+	margin-top: 57px;
+}
+.a_services {
+	font-size:22px ;
+	text-decoration: none;
+	color:#CC9933;
+	font-weight: 400;
+	padding-left: 45px;
+	margin-top: 250px;
+	padding-top: 10px;
+	
+}
+
+.a_services-2 {
+	font-size:22px ;
+	text-decoration: none;
+	color:#CC9933;
+	font-weight: 400;
+	padding-left: 43px;
+	margin-top: 250px;
+	
+}
+
+.a_services-3 {
+	font-size:22px ;
+	text-decoration: none;
+	color:#CC9933;
+	font-weight: 400;
+	padding-left: 43px;
+	margin-top: 250px;
+	
+}
+
+.a_services-4 {
+	font-size:22px ;
+	text-decoration: none;
+	color:#CC9933;
+	font-weight: 400;
+	padding-left: 45px;
+	margin-top: 250px;
+	
+}
+
+.p_services {
+	color: #666666;
+	font-weight: 400;
+	font-size: 16px;
+	padding-left: 46px;
+	line-height: 30px;
+	margin-top: 11px;
+	width: 395px;
+}
+
+.p_services-2 {
+	color: #666666;
+	font-weight: 400;
+	font-size: 16px;
+	padding-left: 46px;
+	line-height: 30px;
+	margin-top: 10px;
+	width: 395px;
+}
+
+
+.p_services-3 {
+	color: #666666;
+	font-weight: 400;
+	font-size: 16px;
+	padding-left: 46px;
+	line-height: 30px;
+	padding-right: 120px;
+	margin-top: 10px;
+	width: 395px;
+}
+
+
+.p_services-4 {
+	color: #666666;
+	font-weight: 400;
+	font-size: 16px;
+	padding-left: 46px;
+	line-height: 30px;
+	margin-top: 11px;
+	width: 395px;
+}
+
+
+.services_img {
+	margin-bottom: 20px;
+}
