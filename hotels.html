@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="preload" href="/css/fonts.css" crossorigin >
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
 </head>
 <body class="body">
     <div class="container">
@@ -32,7 +34,7 @@
                 </nav> 
                 <form action="#" class="form_seach">
                     <input type="search" class="input_search text_placeh" placeholder="Поиск" >
-                    <button class="btn_search"></button>
+                    <button class="btn_search" aria-label="Поиск" ></button>
                 </form>
                 </div>
         </section>
@@ -62,38 +64,48 @@
             </div>
         </section>
         <section class="about_us">
-            <h2 class="for-text-h2 h2-about_us"><a name="about_us"> О нас </a></h2>
+            <h2 class="for-text-h2 h2-about_us"><a id="about_us"> О нас </a></h2>
             <p class="p-about_us">Идейные соображения высшего порядка, а также сложившаяся структура организации влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям. Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности представляет собой интересный эксперимент проверки системы обучения кадров, соответствует насущным потребностям. Равным образом сложившаяся структура организации требуют определения и уточнения существенных финансовых и административных условий.</p>
         </section>
         <section>
-            <h2 class="for-text-h2 h2-services"><a name="services"> Услуги </a></h2>
-            <div class="flex_services">
-                <div class="block_services img_sauna">
+            <h2 class="for-text-h2 h2-services"><a id="services"> Услуги </a></h2>
+            <ul class="flex_services ">
+               <li class="li-services"> 
+                <article class="block_services img_sauna">
                     <div class="empty_block"></div>
-                    <a href="#" class="a_services">Сауны, бассейны, бани, фитнес-залы</a>
-                    <i class="fa fa-angle-right arrow color_y" ></i>                
-                    <p class="p_services">Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
-                </div>
-                <div class="block_services img_protected_vehicles">
+                    <h3><a href="#" class="a_services">Сауны, бассейны, бани, фитнес-залы</a></h3>               
+                    <p class="p_services">Не следует, однако забывать, что начало повседневной работы по формированию позиции
+                    <i class="fa fa-angle-right arrow color_y" ></i> </p>
+                </article>
+               </li> 
+                <article class="block_services img_protected_vehicles">
+                <li class="li-services">
                     <div class="empty_block"></div>   
-                    <a href="#" class="a_services-2"> Охраняемые автомобильные стоянки</a>
+                    <h3><a href="#" class="a_services-2"> Охраняемые автомобильные стоянки</a></h3>                
+                    <p class="p_services-2">Не следует, однако забывать, что начало повседневной работы по формированию позиции
+                        <i class="fa fa-angle-right arrow color_y" ></i>  
+                    </p>
+                </article>
+                </li>
+                <li class="li-services">   
+            <article class="block_services img_exclusive_service serv_pos">
+                <div class="empty_block"></div>
+                <h3><a href="#" class="a_services-3">Эксклюзивное обслуживание </a></h3>
+                <p class="p_services-3">Равным образом постоянный количественный рост и сфера нашей активности
                     <i class="fa fa-angle-right arrow color_y" ></i>                
-                    <p class="p_services-2">Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
-                </div>    
-            <div class="block_services img_exclusive_service serv_pos">
+                </p>
+            </article>
+            </li>
+            <li class="li-services">
+            <article class="block_services img_rent_place">
                 <div class="empty_block"></div>
-                <a href="#" class="a_services-3">Эксклюзивное обслуживание </a>
-                <i class="fa fa-angle-right arrow color_y" ></i>                
-                <p class="p_services-3">Равным образом постоянный количественный рост и сфера нашей активности</p>
-            </div>
-            
-            <div class="block_services img_rent_place">
-                <div class="empty_block"></div>
-                <a href="#" class="a_services-4">Аренда банкетных залов</a>
-                <i class="fa fa-angle-right arrow color_y" ></i>                
-                <p class="p_services-4">Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм.</p>
-            </div>
-            </div> 
+                <h3><a href="#" class="a_services-4">Аренда банкетных залов</a></h3>
+                <p class="p_services-4">Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм.
+                    <i class="fa fa-angle-right arrow color_y" ></i>               
+                </p>
+            </article>
+            </li> 
+            </ul> 
         </section>
         <section>
             <h2 class="for-text-h2 h2-advantage"><a name="advantage"> Преимущества</a></h2>

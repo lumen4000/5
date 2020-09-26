@@ -1,6 +1,1033 @@
+/* Body  */
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+.body{
+	background-color: #F1F1F1;
+	font-family: 'Muller', sans-serif;
+}	
+
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #F1F1F1;
+}
+
+
+/* Header  */
+
+.header { 
+    display:flex;
+    justify-content: space-between;
+}
+
+.flex_header { 
+    color:#666666 ;
+	display: flex;
+}
+
+.phone {
+	margin-left: 25px;
+	margin-top: 17px;
+	font-weight: 700;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+.phone_st {
+	text-decoration: none;
+	color: #666666;
+
+}
+
+
+/* Блок about  */
+
+
+.about {
+	display:flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	border: 1px double white;
+	border-radius:  10px; ;
+	background-color: white;
+	height: 66px;
+}
+
+
+.list {
+	list-style-type: none;
+	display:flex;
+	justify-content: space-between;
+	padding-inline-start: 18px;
+	
+}
+
+.li_about {
+	padding-right: 43px;
+	font-weight: 400;
+	font-size: 17px;
+	margin-top: 9px;
+
+}
+
+
+
+.about_a { 
+	text-decoration: none;
+	color: #333333;
+	
+}
+
+
+.form_seach {
+	position: relative;
+	display: inline-block;
+  
+}
+  
+.input_search {
+	margin-top: 10px;
+	margin-right: 20px;
+	width: 355px;
+	height: 50px;
+	background-color: #F1F1F1;
+	border-radius: 14px;
+}
+
+.btn_search {
+	margin-top: 5px;
+	width: 50px;
+	height: 50px;
+	margin-right: 20px;
+	border: 0;
+	background: url('http://abhc.com.au/images/icon-search.png') no-repeat 50% 50%;
+	background-size: 50%;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	cursor: pointer;
+}
+
+
+
+.img_search {
+	border: 2px double white;
+	border-radius:  19px;
+	background-color: #F1F1F1;
+	display:flex;
+	align-items: center;
+	margin-right: 20px;
+	margin-bottom: 6px;
+	margin-top: 6px;
+	width: 355px;
+	
+}
+
+.search_possition {
+	padding-left: 162px;
+}
+
+.text_placeh::placeholder {
+	padding-left: 20px;
+	background-color: #F1F1F1;
+	color: #BEBEBE;
+	font-weight: 400;
+
+	
+}
+
+.text_placeh {
+	border:none;
+	outline: none;
+	padding:0;
+	display: block;
+	margin-left: 22px;
+	font-size: 10px;
+	font-weight: 400;
+
+}	
+
+
+.text_placeh:focus{
+	background-color: #F1F1F1;
+
+}
+
+
+/* Секция Быстрая бронь  */
+
+.cabinet {
+    color:#CC9933;
+	font-size: 18px;
+
+}
+
+.arrow_possition { 
+	color: #CC9933;
+	margin-top: 18px;
+	margin-right: 3px;
+}
+
+
+
+.flex_cabinet {
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+.flex-section-2 {
+	display:flex;
+	flex-wrap: nowrap;
+	margin-top: 50px;
+}
+
+.quick_booking {
+    display: flex;
+    flex-flow: column;
+}
+
+.quick_placeh {
+	border: 2px double  #F1F1F1;
+	border-radius:  20px;
+	background-color:white;
+	min-height: 72px;
+	margin-bottom: 16px;
+	font-weight: 400;
+    font-size: 16px;
+    padding-left: 15px;
+
+	
+}
+
+.quick_placeh::placeholder {
+	color: #999999;
+	font-weight: 400;
+}
+
+
+
+.btn {
+	width: 162px;
+	height: 75px;
+	background-color: #CC9933;
+	color: #FFFFFF;
+	font-weight: 500;
+	border: 2px double  #F1F1F1;
+	border-radius:  13px;
+	font-size: 16px;
+	cursor: pointer;
+	
+}
+
+.find_number {
+	display: flex;
+		
+}
+
+
+.p2 {
+	font-weight: 400;
+	color: #999999;
+	padding-left: 25px;
+	padding-top: 10px;
+}
+
+.first_rent {
+	width: 519px;
+	height: 427px;
+	display: flex;
+	flex-flow: column;
+}
+
+/* Блок спецпредложение  */
+
+.text-span-srecial {
+	color: #FFFFFF;
+	font-weight: 400;
+	font-size: 35px;
+	opacity: .49019607843137253;
+	padding-left: 40px;
+}
+
+.for-text-h2 {
+	color: #333333;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+
+.special_offers {
+	padding-left: 55px;
+
+}
+
+.numbers_lux {
+	background: url(../img/Numbers.png) no-repeat ;
+	background-size: contain;
+	width: 595px;
+	height: 540px;
+}
+
+
+.h2-spec {
+	padding-left: 47px;
+	margin-bottom: 22px;
+	margin-top: 15px;
+}
+
+.a_more {
+	text-decoration: none;
+	color:#CC9933;
+	font-weight: 400;
+	padding-left: 37px;
+	font-size: 16px;
+}
+
+
+
+.text-color-h3 { 
+	color: #FFFFFF;
+	font-size: 66px;
+	display: table-caption;
+	font-weight: 500;
+	padding-top: 196px;
+	padding-left: 40px;
+	line-height: 60px;
+	margin-bottom: 28px;
+
+}
+
+/* Блок " о нас " */
+
+
+.h2-about_us {
+	
+	padding-bottom: 30px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.about_us {
+	margin-top: 70px;
+	margin-left: 40px;
+	width: 880px;
+
+}
+
+.p-about_us {
+	color: #666666;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 32px;
+	padding-left: 4px;
+	margin-top:10px;
+	width: 890px;
+}
+
+/* Блок "Услуги" */
 
 
 
 
 
 
+.empty_block {
+	width: 570px;
+	height: 199px;
+}
+
+
+
+.arrow {
+	margin-left: 10px;
+}
+
+.color_y {
+	color: #CC9933;
+}
+
+.color_w {
+	color: #FFFFFF;
+}
+
+
+
+
+.yellow {
+	color: #CC9933;
+	font-weight: 500;
+}
+
+
+
+
+
+.block_services {
+	width: calc(100%/2-25px)
+	/* height: 326px; */
+	background-color: #FFFFFF;
+	border-radius: 20px;
+	
+	
+}
+
+.block_services:nth-child(3) {
+	margin-bottom: 23px;
+	margin-right: 24px;
+}
+
+
+.block_services:nth-child(4) {
+	
+	margin-bottom: 23px;
+}
+
+
+.serv-pos {
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+
+.img_sauna { 
+	background-image: url(../img/Services/Saunas.png);
+	background-repeat: no-repeat;
+}
+
+.img_protected_vehicles { 
+	background-image: url(../img/Services/Protected_vehicles.png);
+	background-repeat: no-repeat;
+}
+
+.img_exclusive_service { 
+	background-image: url(../img/Services/Exclusive_service.png);
+	background-repeat: no-repeat;
+}
+
+.img_rent_place { 
+	background-image: url(../img/Services/Rent_place.png);
+	background-repeat: no-repeat;
+}
+
+.flex_services {
+	display: flex;
+	flex-flow:wrap-reverse;
+	margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+.h2-services {
+	padding-left: 42px;
+	margin-bottom: 21px;
+	margin-top: 57px;
+}
+.a_services {
+	font-size:22px ;
+	text-decoration: none;
+	color:#CC9933;
+	font-weight: 400;
+	padding-left: 45px;
+	margin-top: 250px;
+	padding-top: 10px;
+	
+}
+
+.a_services-2 {
+	font-size:22px ;
+	text-decoration: none;
+	color:#CC9933;
+	font-weight: 400;
+	padding-left: 43px;
+	margin-top: 250px;
+	
+}
+
+.a_services-3 {
+	font-size:22px ;
+	text-decoration: none;
+	color:#CC9933;
+	font-weight: 400;
+	padding-left: 43px;
+	margin-top: 250px;
+	
+}
+
+.a_services-4 {
+	font-size:22px ;
+	text-decoration: none;
+	color:#CC9933;
+	font-weight: 400;
+	padding-left: 45px;
+	margin-top: 250px;
+	
+}
+
+.p_services {
+	color: #666666;
+	font-weight: 400;
+	font-size: 16px;
+	padding-left: 46px;
+	line-height: 30px;
+	margin-top: 11px;
+	width: 395px;
+}
+
+.p_services-2 {
+	color: #666666;
+	font-weight: 400;
+	font-size: 16px;
+	padding-left: 46px;
+	line-height: 30px;
+	margin-top: 10px;
+	width: 395px;
+}
+
+
+.p_services-3 {
+	color: #666666;
+	font-weight: 400;
+	font-size: 16px;
+	padding-left: 46px;
+	line-height: 30px;
+	padding-right: 120px;
+	margin-top: 10px;
+	width: 395px;
+}
+
+
+.p_services-4 {
+	color: #666666;
+	font-weight: 400;
+	font-size: 16px;
+	padding-left: 46px;
+	line-height: 30px;
+	margin-top: 11px;
+	width: 395px;
+}
+
+
+.services_img {
+	margin-bottom: 20px;
+}
+
+.ul-services { 
+	margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+.li-services { 
+	list-style-type: none; /* Убираем маркеры */
+}
+
+
+/* Блок "Преимущества" */
+
+
+
+.flex_advantage {
+	display: flex;
+	flex-flow:wrap;
+	justify-content: space-between;
+	
+	
+}
+
+.advantage {
+	width: 279px;
+	height: 278px;
+	background-color: #FFFFFF;
+	margin-bottom: 20px;
+	display: flex;
+	align-items:flex-start;
+	flex-direction:column;
+	border: 2px double  #F1F1F1;
+	border-radius:  20px;
+	box-sizing: border-box;
+	padding-left: 45px;
+	padding-right: 45px;
+	line-height: 32px;
+	padding-top: 100px;
+	font-weight: 400;
+	color: #333333;
+	font-size: 16px;
+
+}
+
+.h2-advantage {
+	padding-left: 42px;
+	margin-bottom: 21px;
+	margin-top: 67px;
+}
+
+.adv_1 {
+	background-image: url(../img/Advantages/bathtub-1.svg);
+	background-repeat: no-repeat;
+	background-position: 21% 21%;
+	background-size: 63px;
+
+}
+
+.adv_2 {
+	background-image: url(../img/Advantages/hanger-2.svg);
+	background-repeat: no-repeat;
+	background-position: 20% 19%;
+	background-size: 63px;
+
+}
+
+.adv_3 {
+	background-image: url(../img/Advantages/heating-3.svg);
+	background-repeat: no-repeat;
+	background-position: 22% 20%;
+	background-size: 63px;
+
+}
+
+
+.adv_4 {
+	background-image: url(../img/Advantages/hotel-key-4.svg);
+	background-repeat: no-repeat;
+	background-position: 22% 20%;
+	background-size: 63px;
+
+}
+
+.adv_5 {
+	background-image: url(../img/Advantages/parking-5.svg);
+	background-repeat: no-repeat;
+	background-position: 20% 20%;
+	background-size: 63px;
+
+}
+
+.adv_6 {
+	background-image: url(../img/Advantages/reception-6.svg);
+	background-repeat: no-repeat;
+	background-position: 21% 20%;
+	background-size: 63px;
+}
+
+.adv_7 {
+	background-image: url(../img/Advantages/security-box-7.svg);
+	background-repeat: no-repeat;
+	background-position: 22% 21%;
+	background-size: 63px;
+
+}
+
+.adv_8 {
+	background-image: url(../img/Advantages/swimming-pool-8.svg);
+	background-repeat: no-repeat;
+	background-position: 20% 20%;
+	background-size: 63px;
+
+}
+
+/* Блок "Размещение " */
+
+
+
+.flex_placement {
+	display: flex;
+	align-items:flex-start;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.h2-placement {
+	padding-left: 42px;
+	margin-bottom: 19px;
+	margin-top: 48px;
+}
+
+.placement {
+	width: 374px;
+	height: 442px;
+	border: 2px double  #F1F1F1;
+	border-radius:  20px;
+	margin-bottom: 25px;
+	background-color: #FFFFFF;
+	
+}
+
+
+
+.btn_numbers {
+	height: 44px;
+	background-color: #FFFFFF; 
+	color : #CC9933; 
+	font-weight: 700;
+	border: 2px double  #CC9933;
+	border-radius:  11px;
+	cursor: pointer;
+	width: 100px;
+
+}
+
+.img_services {
+	width: 100%;
+}
+
+.back_place {
+	background-image: url(../img/All_variants.png);
+	display: flex;
+	align-items:flex-end;
+	width: 360px;
+	height: 430px;
+	
+	
+}
+
+.a_placement {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: 500;
+	font-size: 20px;
+	
+}
+
+.a_possition {
+	margin-bottom: 50px;
+	margin-left: 40px;
+}
+
+.img_possition {
+	padding-left: 7px;
+
+}
+
+.p_plac_1 {
+	color: #969696;
+	font-weight: 500;
+	padding-top: 19px;
+	font-size: 16px;
+}
+
+.span_plac {
+	color: #333333;
+	font-weight: 700;
+}
+
+.p_plac_2 {
+	font-weight: 400;
+	margin-top: 0px;
+}
+
+.p_plac_3 {
+	font-weight: 400;
+}
+
+
+.flex_stars_p {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.stars {
+	padding-left:64px;
+	padding-top: 24px;
+}
+
+.flex_content_place {
+	padding-left: 40px;
+}
+
+/* Блок "Контакты" */
+
+
+
+.h2-contacts {
+	padding-left: 42px;
+	margin-bottom: 21px;
+	margin-top: 27px;
+}
+.contacts {
+	width: 473px;
+	height: 620px;
+	background-color: #FFFFFF;
+	border: 2px double  #F1F1F1;
+	border-radius:  20px;
+}
+
+.flex_contacts_in {
+	white-space: pre-line;
+	display:flex ;
+	justify-content: flex-start;
+	margin-left: 44px;
+	margin-right: 44px;
+	line-height: 25px;
+	
+
+
+}
+
+.btn_route {
+	width: 215px;
+	height: 71px;
+	background-color: #FFFFFF; 
+	color : #CC9933; 
+	font-weight: 700;
+	border: 2px double  #CC9933;
+	border-radius:  20px;
+	margin-left: 44px;
+	margin-top: 29px;
+	cursor: pointer;
+
+}
+
+
+
+.p_contacts {
+	color: #666666;
+	font-size: 22px;
+	font-weight: 700;
+	width: 140px;
+	margin-top: 13px;
+}
+
+.contacts-a {
+	color: #CC9933;
+	font-weight: 400;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.p_contacts_2 {
+	color: #333333;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.p_yellow {
+	color: #CC9933;
+	font-size: 16px;
+	font-weight: 400;
+
+}
+
+.p_contacts_3 {
+	font-size: 16px;
+	font-weight: 400;
+	color: #969696;
+
+}
+
+.hr_contacts {
+	width: 385px;
+	color: #CCCCCC;
+	
+}
+
+.top {
+	margin-top: 30px;
+}
+
+.flex_contacts_writeus {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.write_us {
+	display: flex;
+	flex-flow: column;
+	margin-left: 174px ;
+	margin-top: 125px;
+}
+
+.writeus_placeh {
+	border: 2px double  #F1F1F1;
+	border-radius:  20px;
+	background-color:white;
+	width: 333px;
+	height: 68px;
+	margin-bottom: 20px;
+}
+
+.writeus_placeh::placeholder {
+	color: #999999;
+	padding-left: 15px;
+	font-weight: 400;
+}
+
+.writeus_placeh_big::placeholder {
+	color: #999999;
+	padding-left: 15px;
+	font-weight: 400;
+	padding-top: 15px;
+}
+
+
+.writeus_placeh_big {
+	border: 2px double  #F1F1F1;
+	border-radius:  20px;
+	background-color:white;
+	width: 332px;
+	height: 104px;
+	margin-bottom: 20px;	
+}
+
+.btn_send {
+	width: 340px;
+	height: 71px;
+	background-color: #CC9933;
+	color: #FFFFFF;
+	font-weight: 500;
+	border: 2px double  #F1F1F1;
+	border-radius:  14px;
+	cursor: pointer;
+	font-size: 16px;
+
+		
+}
+
+.h2-write_us {
+	margin-bottom: 37px;
+	font-size: 40px;
+	padding-left: 30px;
+}
+
+/* Footer  */
+
+
+
+.footer {
+	background-color: #333333;
+	width: 1169px;
+	height: 339px;
+	margin-top: 19px;
+	border: 2px double  #333333;
+	border-radius:  20px;
+	background-image: url(../img/footer/funny_sun.png);
+	background-repeat: no-repeat;
+	background-size: 250px;
+	background-position: bottom 0px right 176px;
+	display: flex;
+
+}
+
+
+.p-footer-1 {
+	display: flex;
+	flex-flow: column;
+	color: #FFFFFF;
+	line-height:30px;
+	font-weight: 500;
+
+}
+
+.p-footer-1-1 { 
+	width: 300px;
+	padding-left: 50px;
+	padding-top: 26px;		
+}
+
+.p-footer-1-2 { 
+	width: 300px;		
+	padding-left: 51px;
+	padding-top: 4px;
+}
+
+
+
+.p-footer-2 {
+	display: flex;
+	flex-direction: column;
+	color: #FFFFFF;
+	font-weight: 500;
+	padding-left: 122px;
+	padding-top: 31px;
+}
+.p-footer-possition {
+	margin-bottom: 38px;
+}
+
+.a-footer-flex-2-2 {
+	display: flex;
+	flex-direction: column;
+	line-height: 22px;
+	margin-bottom: 29px;
+}
+
+.a-footer-flex-2-3 {
+	display: flex;
+	flex-direction: column;
+	line-height: 22px;
+}
+
+.footer-soc {
+	display: flex;
+	align-items: baseline;
+	flex-flow: column;
+	margin-left: 260px;
+	margin-top: 45px;	
+}
+
+.footer-color-a {
+	color: #CC9933;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 400;
+
+}
+
+.yellow-footer-a {
+	color: #CC9933;
+	font-weight: 500;
+	text-decoration: none;
+	margin-top: 19px;
+	margin-left: 54px;
+}
+
+.soc-possition {
+	margin-top: 21px;
+	display: block;
+	width: 25px;
+	height: 25px;
+	background-repeat:no-repeat;
+}
+
+
+
+.tripadvisor {
+	background-image: url(../img/footer/tripadvisor.svg);
+	display: block;
+	width: 25px;
+	height: 25px;
+	background-repeat:no-repeat;
+	opacity: 0.5019607843137255;
+}
+
+.twitter {
+	background-image: url(../img/footer/twitter.svg);
+	opacity: 0.5019607843137255;
+
+}
+
+.facebook { 
+	background-image: url(../img/footer/facebook.svg);
+	opacity: 0.5019607843137255;
+
+}
+
+.VK {
+	background-image: url(../img/footer/social.svg);
+	opacity: 0.5019607843137255;
+
+}
+
+.google {
+	background-image: url(../img/footer/google-plus-social-logotype.svg) ;
+	opacity: 0.5019607843137255;
+
+}
