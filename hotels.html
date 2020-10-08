@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="preload" href="/css/fonts.css" crossorigin >
+    <link rel="stylesheet"  href="/css/fonts.css" crossorigin >
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/font-awesome.min.css">
 </head>
@@ -44,7 +44,7 @@
                 <form action="https://jsonplaceholder.typicode.com/posts" autocomplete="on" method="POST" class="first_rent"> 
                     <input type="text" name="city" required placeholder="Город" class="quick_placeh">
                     <input type="text" name="category "  required placeholder="Категория номера" class="quick_placeh date">
-                    <input type="date" placeholder="Дата заселения" required class="quick_placeh">
+                    <input type="number" name="date" placeholder="Дата заселения" required class="quick_placeh">
                     <input type="number" name="numbers_of_nights" required placeholder="Количество ночей" class="quick_placeh">
                     <input type="number" name="numbers_of_guests" required placeholder="Количество гостей" class="quick_placeh">
                     <div class="find_number">
@@ -72,14 +72,12 @@
             <ul class="flex_services ">
                <li class="li-services"> 
                 <article class="block_services img_sauna">
-                    <div class="empty_block"></div>
                     <h3><a href="#" class="a_services">Сауны, бассейны, бани, фитнес-залы</a> <i class="fa fa-angle-right arrow color_y" ></i></h3>               
                     <p class="p_services">Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
                 </article>
                </li> 
-                <article class="block_services img_protected_vehicles">
                 <li class="li-services">
-                    <div class="empty_block"></div>   
+                    <article class="block_services img_protected_vehicles">
                     <h3><a href="#" class="a_services-2"> Охраняемые автомобильные стоянки</a> <i class="fa fa-angle-right arrow color_y" ></i></h3>                
                     <p class="p_services-2">Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
                 </article>
@@ -93,7 +91,6 @@
             </li>
             <li class="li-services">
             <article class="block_services img_rent_place">
-                <div class="empty_block"></div>
                 <h3><a href="#" class="a_services-4">Аренда банкетных залов</a> <i class="fa fa-angle-right arrow color_y" ></i></h3>
                 <p class="p_services-4">Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм.</p>
             </article>
@@ -101,7 +98,7 @@
             </ul> 
         </section>
         <section>
-            <h2 class="for-text-h2 h2-advantage"><a name="advantage"> Преимущества</a></h2>
+            <h2 class="for-text-h2 h2-advantage"><a id="advantage"> Преимущества</a></h2>
             <div class="flex_advantage">
             <div class="advantage adv_1">
                 <p class="p-advantage">Идейные соображения высшего порядка, а также постоянный количественный рост</p>
@@ -130,7 +127,7 @@
         </div>
         </section>
         <section>
-            <h2 class="for-text-h2 h2-placement"><a name="placement"> Размещение </a></h2>
+            <h2 class="for-text-h2 h2-placement"><a id="placement"> Размещение </a></h2>
             <div class="flex_placement">
                 <div class="placement">
                     <img src="./img/Placement/4698.png" alt="" class="img_services">
@@ -138,10 +135,10 @@
                         <div class="flex_stars_p">
                             <p class="p_plac_1">от <span class="span_plac">4 698 р</span> / ночь</p>
                             <div class="stars">
-                                <img src="./img/Placement/star.svg">
-                                <img src="./img/Placement/star.svg">
-                                <img src="./img/Placement/star.svg">
-                                <img src="./img/Placement/star.svg">
+                                <img src="./img/Placement/star.svg" alt="звёздочка">
+                                <img src="./img/Placement/star.svg" alt="звёздочка">
+                                <img src="./img/Placement/star.svg" alt="звёздочка">
+                                <img src="./img/Placement/star.svg" alt="звёздочка">
                                 <img src="./img/Placement/star_empty.svg" alt="4 из 5 звезд" >
                             </div>
                         </div>
@@ -156,10 +153,10 @@
                         <div class="flex_stars_p">
                             <p class="p_plac_1">от <span class="span_plac">5 148 р</span> / ночь</p>
                             <div class="stars">
-                                <img src="./img/Placement/star.svg">
-                                <img src="./img/Placement/star.svg">
-                                <img src="./img/Placement/star.svg">
-                                <img src="./img/Placement/star.svg">
+                                <img src="./img/Placement/star.svg" alt="звёздочка">
+                                <img src="./img/Placement/star.svg" alt="звёздочка">
+                                <img src="./img/Placement/star.svg" alt="звёздочка">
+                                <img src="./img/Placement/star.svg" alt="звёздочка">
                                 <img src="./img/Placement/star_empty.svg" alt="4 из 5 звезд" >
                             </div>
                         </div>
@@ -175,10 +172,10 @@
                         <div class="flex_stars_p">
                             <p class="p_plac_1">от <span class="span_plac">6 254 р</span> / ночь</p>
                             <div class="stars">
-                                <img src="./img/Placement/star.svg">
-                                <img src="./img/Placement/star.svg">
-                                <img src="./img/Placement/star.svg">
-                                <img src="./img/Placement/star.svg">
+                                <img src="./img/Placement/star.svg" alt="звёздочка">
+                                <img src="./img/Placement/star.svg" alt="звёздочка">
+                                <img src="./img/Placement/star.svg" alt="звёздочка">
+                                <img src="./img/Placement/star.svg" alt="звёздочка">
                                 <img src="./img/Placement/star.svg" alt="5 из 5 звезд" >
                             </div>
                         </div>
@@ -194,10 +191,10 @@
                         <div class="flex_stars_p">
                             <p class="p_plac_1">от <span class="span_plac">6 320 р</span> / ночь</p>
                             <div class="stars">
-                                <img src="./img/Placement/star.svg">
-                                <img src="./img/Placement/star.svg">
-                                <img src="./img/Placement/star.svg">
-                                <img src="./img/Placement/star.svg">
+                                <img src="./img/Placement/star.svg" alt="звёздочка">
+                                <img src="./img/Placement/star.svg" alt="звёздочка">
+                                <img src="./img/Placement/star.svg" alt="звёздочка">
+                                <img src="./img/Placement/star.svg" alt="звёздочка">
                                 <img src="./img/Placement/star.svg" alt="5 из 5 звезд" >
                             </div>
                         </div>
@@ -213,10 +210,10 @@
                         <div class="flex_stars_p">
                             <p class="p_plac_1">от <span class="span_plac">6 457 р</span> / ночь</p>
                             <div class="stars">
-                                <img src="./img/Placement/star.svg">
-                                <img src="./img/Placement/star.svg">
-                                <img src="./img/Placement/star.svg">
-                                <img src="./img/Placement/star.svg">
+                                <img src="./img/Placement/star.svg" alt="звёздочка">
+                                <img src="./img/Placement/star.svg" alt="звёздочка">
+                                <img src="./img/Placement/star.svg" alt="звёздочка">
+                                <img src="./img/Placement/star.svg" alt="звёздочка">
                                 <img src="./img/Placement/star_empty.svg" alt="4 из 5 звезд" >
                             </div>
                         </div> 
@@ -231,10 +228,10 @@
                         <div class="flex_stars_p">
                             <p class="p_plac_1">от <span class="span_plac">6 490 р</span> / ночь</p>
                             <div class="stars">
-                                <img src="./img/Placement/star.svg">
-                                <img src="./img/Placement/star.svg">
-                                <img src="./img/Placement/star.svg">
-                                <img src="./img/Placement/star.svg">
+                                <img src="./img/Placement/star.svg" alt="звёздочка">
+                                <img src="./img/Placement/star.svg" alt="звёздочка">
+                                <img src="./img/Placement/star.svg" alt="звёздочка">
+                                <img src="./img/Placement/star.svg" alt="звёздочка">
                                 <img src="./img/Placement/star_empty.svg" alt="4 из 5 звезд" >
                             </div>
                         </div>
@@ -249,10 +246,10 @@
                         <div class="flex_stars_p">
                             <p class="p_plac_1">от <span class="span_plac">6 505 р</span> / ночь</p>
                             <div class="stars">
-                                <img src="./img/Placement/star.svg">
-                                <img src="./img/Placement/star.svg">
-                                <img src="./img/Placement/star.svg">
-                                <img src="./img/Placement/star.svg">
+                                <img src="./img/Placement/star.svg" alt="звёздочка">
+                                <img src="./img/Placement/star.svg" alt="звёздочка">
+                                <img src="./img/Placement/star.svg" alt="звёздочка">
+                                <img src="./img/Placement/star.svg" alt="звёздочка">
                                 <img src="./img/Placement/star.svg" alt="5 из 5 звезд" >
                             </div>
                         </div>
@@ -267,10 +264,10 @@
                         <div class="flex_stars_p">
                             <p class="p_plac_1">от <span class="span_plac">6 824 р</span> / ночь</p>
                             <div class="stars">
-                                <img src="./img/Placement/star.svg">
-                                <img src="./img/Placement/star.svg">
-                                <img src="./img/Placement/star.svg">
-                                <img src="./img/Placement/star.svg">
+                                <img src="./img/Placement/star.svg" alt="звёздочка">
+                                <img src="./img/Placement/star.svg" alt="звёздочка">
+                                <img src="./img/Placement/star.svg" alt="звёздочка">
+                                <img src="./img/Placement/star.svg" alt="звёздочка">
                                 <img src="./img/Placement/star_empty.svg" alt="4 из 5 звезд" >
                             </div>
                         </div>
@@ -289,22 +286,22 @@
         </section>
         <section class="flex_contacts_writeus">
             <div class="flex_contacts">
-                <h2 class="for-text-h2 h2-contacts"><a name="contacts"></a> Контакты</h2>
+                <h2 class="for-text-h2 h2-contacts"><a id="contacts"></a> Контакты</h2>
                 <div class="contacts">
                   <div class="flex_contacts_in top">
-                      <p class="p_contacts">Адрес</p>
+                      <h3 class="p_contacts">Адрес</h3>
                       <p class="p_contacts_2">Москва, улица Юности, дом 
                           5 строение 4, офис 2</p>
                   </div>
                   <hr class="hr_contacts">
                   <div class="flex_contacts_in">
-                      <p class="p_contacts">Телефоны</p>
+                      <h3 class="p_contacts">Телефоны</h3>
                       <p class="p_yellow"><a href="tel:+74995356434" class="footer-color-a">+7 (499) 535-64-34</a>
                         <a href="tel:+74950050544" class="footer-color-a">+7 (495) 005-05-44</a></p>
                   </div>
                   <hr class="hr_contacts">
                   <div class="flex_contacts_in">
-                     <p class="p_contacts">E-mail</p>
+                     <h3 class="p_contacts">E-mail</h3>
                      <p class="p_contacts_3"><a href="mailto:lg.oona@mail.ru" class="contacts-a">lg.oona@mail.ru</a> по вопросам
                         бронирования
                         <a href="mailto:hotels.ln@mail.ru" class="contacts-a">hotels.ln@mail.ru</a>  по вопросам
@@ -312,7 +309,7 @@
                   </div>
                   <hr class="hr_contacts">
                   <div class="flex_contacts_in">
-                    <p class="p_contacts">График</p>
+                    <h3 class="p_contacts">График</h3>
                     <p class="p_contacts_2">Понедельник - пятница,
                          с 10:0 до 19:00</p>
                   </div>
@@ -350,13 +347,13 @@
                 </div>
                 
             </div>
-            <div class="footer-soc">
-                <a href="https://www.tripadvisor.ru/" target="_blank" class="tripadvisor"></a>
-                <a href="https://twitter.com/" target="_blank" class="soc-possition twitter"></a>
-                <a href="https://www.facebook.com/" target="_blank" class="soc-possition facebook"></a>
-                <a href="https://vk.com/" target="_blank" class="soc-possition VK"></a>
-                <a href="https://myaccount.google.com/" target="_blank" class="soc-possition google"></a>
-            </div>
+            <ul class="footer-soc">
+                    <li class="tripadvisor"><a href="https://www.tripadvisor.ru/" target="_blank"></a></li>
+                    <li class="soc-possition twitter"><a href="https://twitter.com/" target="_blank"></a></li>
+                    <li class="soc-possition facebook"><a href="https://www.facebook.com/" target="_blank" ></a></li>
+                    <li class="soc-possition VK"><a href="https://vk.com/" target="_blank"></a></li>
+                    <li class="soc-possition google"><a href="https://myaccount.google.com/" target="_blank" ></a></li> 
+            </ul>
         </footer>    
     </div>   
 </body>
